@@ -1,7 +1,7 @@
 export default function Hero() {
     return (
       <div className="bg-[url('/image.webp')] bg-cover bg-center relative h-screen w-full flex items-center justify-center">
-        <div className="bg-white border-2 bg-opacity-70 border-dashed border-black p-6 rounded-lg my-4 max-w-lg mx-4 shadow-lg">
+        <div className="bg-white border-2 bg-opacity-70 border-dashed border-black p-6 rounded-lg my-4 max-w-lg mx-4 shadow-lg hover:scale-105 hover:shadow-2xl hover:shadow-black">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl text-black font-bold mb-4 drop-shadow-lg">Ahmed Raza</h1>
             <p className="text-left text-lg sm:text-xl pl-2">
