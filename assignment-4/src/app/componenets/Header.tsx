@@ -18,9 +18,9 @@ const Header = () => {
   const toggleSubMenu = () => setIsOpen(prev => !prev);
 
   return (
-    <div className="bg-Black p-5 shadow-lg">
+    <div className="bg-white p-5 shadow-lg">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row lg:items-center justify-between">
-        <h1 className="text-white text-3xl font-bold font-['Geist_Sans']">Portfolio</h1>
+        <h1 className="text-black text-3xl font-bold font-['Geist_Sans']">Portfolio</h1>
 
         <div className="relative flex lg:space-x-4 space-x-2">
           <div
