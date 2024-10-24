@@ -18,9 +18,9 @@ const Header = () => {
   const toggleSubMenu = () => setIsOpen(prev => !prev);
 
   return (
-    <div className="bg-white p-5 shadow-lg">
+    <div className="bg-black p-5 shadow-lg">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row lg:items-center justify-between">
-        <h1 className="text-black text-3xl font-bold font-['Geist_Sans']">Portfolio</h1>
+        <h1 className="text-white text-3xl font-bold font-['Geist_Sans']">Portfolio</h1>
 
         <div className="relative flex lg:space-x-4 space-x-2">
           <div
@@ -45,7 +45,7 @@ const Header = () => {
             <li className="pl-2 lg:pl-0">
               <Link
                 href="/"
-                className="block text-black px-2 lg:px-4 py-2 hover:bg-primary rounded-lg"
+                className="block text-white px-2 lg:px-4 py-2 hover:bg-primary rounded-lg"
               >
                 Home
               </Link>
@@ -54,7 +54,7 @@ const Header = () => {
             <li className="pl-2 lg:pl-0 relative">
               <div
                 onClick={toggleSubMenu}
-                className="flex justify-between items-center cursor-pointer block text-black px-2 lg:px-4 py-2 hover:bg-primary rounded-lg"
+                className="flex justify-between items-center cursor-pointer block text-white px-2 lg:px-4 py-2 hover:bg-primary rounded-lg"
                 
               >
                 About
@@ -88,7 +88,7 @@ const Header = () => {
             <li className="pl-2 lg:pl-0">
               <Link
                 href="/Contact"
-                className="block text-black px-2 lg:px-4 py-2 hover:bg-primary rounded-lg"
+                className="block text-white px-2 lg:px-4 py-2 hover:bg-primary rounded-lg"
               >
                 Contact
               </Link>
