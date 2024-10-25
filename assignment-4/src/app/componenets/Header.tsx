@@ -25,7 +25,7 @@ const Header = () => {
         <div className="relative flex lg:space-x-4 space-x-2">
           <div
             onClick={toggleMenu}
-            className="text-red-500 text-3xl cursor-pointer absolute right-6 -top-8 lg:hidden"
+            className= "bg-gradient-to-r from-cyan-400 to-blue-700 bg-clip-text text-transparent text-3xl cursor-pointer absolute right-6 -top-8 lg:hidden"
             aria-label="Open menu"
           >
             &#9776;
