@@ -32,7 +32,7 @@ const Header = () => {
           </div>
 
           <ul
-            className={`flex-col list-none bg-white text-black fixed right-0 top-0 left-[50%] lg:left-[80%] mx-auto p-2 rounded-md transition-transform z-50 duration-300 ease-in-out lg:flex lg:static lg:flex-row lg:bg-transparent lg:p-0 ${menuOpen ? "flex" : "hidden lg:flex"}`}
+            className={`flex-col list-none bg-black fixed right-0 top-0 left-[50%] lg:left-[80%] mx-auto p-2 rounded-md transition-transform z-50 duration-300 ease-in-out lg:flex lg:static lg:flex-row lg:bg-transparent lg:p-0 ${menuOpen ? "flex" : "hidden lg:flex"}`}
           >
             <li className="w-full text-right pr-10 mt-4 lg:hidden">
               <MdOutlineCancel
@@ -45,7 +45,7 @@ const Header = () => {
             <li className="pl-2 lg:pl-0">
               <Link
                 href="/"
-                className="block text-black px-2 lg:px-4 py-2 hover:bg-primary rounded-lg"
+                className="block text-white px-2 lg:px-4 py-2 hover:bg-primary rounded-lg"
               >
                 Home
               </Link>
@@ -54,7 +54,7 @@ const Header = () => {
             <li className="pl-2 lg:pl-0 relative">
               <div
                 onClick={toggleSubMenu}
-                className="flex justify-between items-center cursor-pointer block text-black px-2 lg:px-4 py-2 hover:bg-primary rounded-lg"
+                className="flex justify-between items-center cursor-pointer block text-white px-2 lg:px-4 py-2 hover:bg-primary rounded-lg"
                 
               >
                 About
@@ -64,11 +64,11 @@ const Header = () => {
               </div>
 
               {isOpen && (
-                <ul className="lg:flex-col lg:list-none lg:text-center lg:bg-white lg:text-black lg:fixed lg:right-0 lg:top-15 lg:left-[80%] lg:mx-auto lg:p-2 lg:rounded-md lg:shadow-lg lg:transition-transform lg:z-50 lg:duration-300 lg:ease-in-out">
+                <ul className="lg:flex-col lg:list-none lg:text-center lg:bg-black lg:text-white lg:fixed lg:right-0 lg:top-15 lg:left-[80%] lg:mx-auto lg:p-2 lg:rounded-md lg:shadow-lg lg:transition-transform lg:z-50 lg:duration-300 lg:ease-in-out">
                   <li>
                     <Link
                       href="/About/AboutUs"
-                      className="block text-black px-4 py-2 hover:bg-primary rounded-lg transition duration-200"
+                      className="block text-white px-4 py-2 hover:bg-primary rounded-lg transition duration-200"
                     >
                       About Us
                     </Link>
@@ -76,7 +76,7 @@ const Header = () => {
                   <li>
                     <Link
                       href="/About/OurTeam"
-                      className="block text-black px-4 py-2 hover:bg-primary rounded-lg transition duration-200"
+                      className="block text-white px-4 py-2 hover:bg-primary rounded-lg transition duration-200"
                     >
                       Our Team
                     </Link>
@@ -88,7 +88,7 @@ const Header = () => {
             <li className="pl-2 lg:pl-0">
               <Link
                 href="/Contact"
-                className="block text-black px-2 lg:px-4 py-2 hover:bg-primary rounded-lg"
+                className="block text-white px-2 lg:px-4 py-2 hover:bg-primary rounded-lg"
               >
                 Contact
               </Link>
