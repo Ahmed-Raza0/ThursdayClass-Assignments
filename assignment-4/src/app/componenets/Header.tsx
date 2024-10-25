@@ -45,7 +45,7 @@ const Header = () => {
             <li className="pl-2 lg:pl-0">
               <Link
                 href="/"
-                className="block text-white px-2 lg:px-4 py-2 hover:bg-primary rounded-lg"
+                className="block text-black px-2 lg:px-4 py-2 hover:bg-primary rounded-lg"
               >
                 Home
               </Link>
@@ -54,7 +54,7 @@ const Header = () => {
             <li className="pl-2 lg:pl-0 relative">
               <div
                 onClick={toggleSubMenu}
-                className="flex justify-between items-center cursor-pointer block text-white px-2 lg:px-4 py-2 hover:bg-primary rounded-lg"
+                className="flex justify-between items-center cursor-pointer block text-black px-2 lg:px-4 py-2 hover:bg-primary rounded-lg"
                 
               >
                 About
@@ -88,7 +88,7 @@ const Header = () => {
             <li className="pl-2 lg:pl-0">
               <Link
                 href="/Contact"
-                className="block text-white px-2 lg:px-4 py-2 hover:bg-primary rounded-lg"
+                className="block text-black px-2 lg:px-4 py-2 hover:bg-primary rounded-lg"
               >
                 Contact
               </Link>
