@@ -59,7 +59,7 @@ const Header = () => {
               >
                 About
                 <span className={`ml-2 transition-transform ${isOpen ? "rotate-90" : ""}`}>
-                  &#9654; {/* Arrow icon */}
+                  &#9654;  
                 </span>
               </div>
 
@@ -70,17 +70,10 @@ const Header = () => {
                       href="/About/AboutUs"
                       className="block text-white px-4 py-2 hover:bg-primary rounded-lg transition duration-200"
                     >
-                      About Us
+                      Skills
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      href="/About/OurTeam"
-                      className="block text-white px-4 py-2 hover:bg-primary rounded-lg transition duration-200"
-                    >
-                      Our Team
-                    </Link>
-                  </li>
+                  
                 </ul>
               )}
             </li>
