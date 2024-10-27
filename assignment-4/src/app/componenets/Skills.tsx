@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const Skills = () => {
   return (
-    <div className='w-full h-screen bg-gray-900'>
+    <div className='w-full h-full bg-gray-900'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <h1 className='text-5xl border-b-4 border-pink-600 inline text-white text-center mb-8'>
           Skills
