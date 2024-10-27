@@ -1,20 +1,20 @@
 'use client';
+
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 const About = () => {
- 
+
   const [showContent, setShowContent] = useState(false);
- 
+
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowContent(true);
-    }, 2000);  
- 
+    }, 2000);
+
     return () => clearTimeout(timer);
   }, []);
 
- 
   const fadeInVariant = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0 },
@@ -23,7 +23,7 @@ const About = () => {
   return (
     <div className="w-full h-screen bg-[#0a192f] text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full">
-        {showContent && ( 
+        {showContent && (
           <>
             <motion.div
               className="max-w-[1000px] w-full grid grid-cols-2 gap-8"
