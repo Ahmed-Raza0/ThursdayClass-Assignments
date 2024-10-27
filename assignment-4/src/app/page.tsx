@@ -3,6 +3,7 @@ import Contact from "./componenets/Contact";
 import Footer from "./componenets/Footer";
 import Header from "./componenets/Header";
 import  Hero  from "./componenets/Hero";
+import Skills from "./componenets/Skills";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <Header />
         <Hero />
         <About />
+        <Skills />
         <Contact />
         <Footer />
       </main>
