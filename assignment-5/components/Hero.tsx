@@ -10,7 +10,7 @@ const libreBodoni = Libre_Bodoni({
 function Hero() {
   return (
     <div className="w-full h-screen">
-      <div className="flex flex-col md:flex-row items-center md:items-start lg:mt-[70px]">
+      <div className="flex flex-col md:flex-row items-center md:mt-[40px] md:items-start lg:mt-[70px]">
         <div className="flex flex-col justify-center items-start sm:w-full md:w-1/2 m-4 md:m-8 2xl:m-[176px]">
           <h1
             className={`font-bold ${libreBodoni.className} text-[24px] md:text-[30px] lg:text-[40px] w-full md:w-auto 2xl:w-[496px] h-auto`}
