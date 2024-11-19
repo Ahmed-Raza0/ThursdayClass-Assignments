@@ -284,7 +284,7 @@ const Footer = () => {
                                     className="w-[18px] h-[15.3px] "
                                 />
                                 <Image
-                                    src="/images/Linkedin.svg"
+                                    src="/images/LinkedIn.svg"
                                     alt="linkedin"
                                     width={18}
                                     height={18}
