@@ -35,7 +35,7 @@ const Team2 = () => {
                         </div>
                         <div className="w-[100px] h-[24px] flex flex-row items-center justify-center gap-[14px]">
                             <Image
-                                src={"/images/Linkedin.svg"}
+                                src={"/images/LinkedIn.svg"}
                                 alt="team"
                                 width={24}
                                 height={24}
@@ -75,7 +75,7 @@ const Team2 = () => {
                         </div>
                         <div className="w-[100px] h-[24px] flex flex-row items-center justify-center gap-[14px]">
                             <Image
-                                src={"/images/Linkedin.svg"}
+                                src={"/images/LinkedIn.svg"}
                                 alt="team"
                                 width={24}
                                 height={24}
@@ -115,7 +115,7 @@ const Team2 = () => {
                         </div>
                         <div className="w-[100px] h-[24px] flex flex-row items-center justify-center gap-[14px]">
                             <Image
-                                src={"/images/Linkedin.svg"}
+                                src={"/images/LinkedIn.svg"}
                                 alt="team"
                                 width={24}
                                 height={24}
@@ -157,7 +157,7 @@ const Team2 = () => {
                         </div>
                         <div className="w-[100px] h-[24px] flex flex-row items-center justify-center gap-[14px]">
                             <Image
-                                src={"/images/Linkedin.svg"}
+                                src={"/images/LinkedIn.svg"}
                                 alt="team"
                                 width={24}
                                 height={24}
@@ -197,7 +197,7 @@ const Team2 = () => {
                         </div>
                         <div className="w-[100px] h-[24px] flex flex-row items-center justify-center gap-[14px]">
                             <Image
-                                src={"/images/Linkedin.svg"}
+                                src={"/images/LinkedIn.svg"}
                                 alt="team"
                                 width={24}
                                 height={24}
@@ -237,7 +237,7 @@ const Team2 = () => {
                         </div>
                         <div className="w-[100px] h-[24px] flex flex-row items-center justify-center gap-[14px]">
                             <Image
-                                src={"/images/Linkedin.svg"}
+                                src={"/images/LinkedIn.svg"}
                                 alt="team"
                                 width={24}
                                 height={24}
